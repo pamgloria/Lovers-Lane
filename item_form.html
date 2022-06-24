@@ -8,18 +8,92 @@
         <title>New Post</title>
     </head>
     <body>
+
+        <!--This is the NavBar-->
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                        <div class="container-fluid">
+                          <a class="navbar-brand" href="#">Navbar</a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                      
+                          <div class="collapse navbar-collapse" id="navbarColor01">
+                            <ul class="navbar-nav me-auto">
+                              <li class="nav-item">
+                                <a class="nav-link active" href="C:\Users\mcjam\OneDrive\Desktop\Dev\Lovers-Lane\index.html">Home
+                                  <span class="visually-hidden">(current)</span>
+                                </a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="file:///C:/Users/mcjam/OneDrive/Desktop/Dev/Lovers-Lane/Posts.html/post.html">About Us</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Model Form</a>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Items List</a>
+                                <div class="dropdown-menu">
+                                  <a class="dropdown-item" href="#">Action</a>
+                                  <a class="dropdown-item" href="#">Another action</a>
+                                  <a class="dropdown-item" href="#">Something else here</a>
+                                  <div class="dropdown-divider"></div>
+                                  <a class="dropdown-item" href="#">Separated link</a>
+                                </div>
+                              </li>
+                            </ul>
+                            <form class="d-flex">
+                              <input class="form-control me-sm-2" type="text" placeholder="Search">
+                              <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                            </form>
+                          </div>
+                        </div>
+                      </nav>
+                </div>
+            </div>
+        </div>
+
+        <!--This is the bootstrap for the Status update function-->
+
         <form>
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">What's your Vibe?</label>
-                            <input type="status" class="form-control" id="exampleFormControlInput1" placeholder="My vibe is...">
-                          </div>
-                          <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">Post to the L♡veLine~</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">@LoversLane, we refer to the timeline as the LoveLine, what do you want to say?</textarea>
-                          </div>      
+                        <form>
+                            <fieldset>
+                              <legend>Post to the L♡veLine</legend>
+                              <div class="form-group row">
+                                <div class="col-sm-10">
+                                  <input type="text" readonly="" class="form-control-plaintext" id="staticEmail" value="Calling all Lovers...">
+                                </div>
+                              </div>
+                                <label for="exampleSelect1" class="form-label mt-4">♡ Vibe Check♡ </label>
+                                <select class="form-select" id="exampleSelect1">
+                                  <option>Social</option>
+                                  <option>Flirty</option>
+                                  <option>Fun</option>
+                                  <option>Chill</option>
+                                </select>
+                              </div>
+                              <div class="form-group">
+                                <label for="exampleTextarea" class="form-label mt-4">♡ Status Update♡ </label>
+                                <textarea class="form-control" id="exampleTextarea" rows="3">Share something with your fellow LoveBirds!</textarea>
+                              </div>
+                              <div class="form-group">
+                                <label for="formFile" class="form-label mt-4">Upload Photo Here</label>
+                                <input class="form-control" type="file" id="formFile">
+                              </div>
+                                  </label>
+                                </div>
+                                  </label>
+                                </div>
+                                </div>
+                              <button type="submit" class="btn btn-primary">Post</button>
+                            </fieldset>
+                          </form>  
                     </div>
                 </div>
             </div>
