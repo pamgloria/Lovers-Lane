@@ -1,3 +1,4 @@
+/*
 h6 {
     background-color: rgb(242, 51, 137);
 }
@@ -5,10 +6,12 @@ h6 {
 h1 {
     color:rgb(242, 51, 137);
 }
+*/
+
 
 img {
-    width: 300px;
-}
+    width: 100px;
+} 
 
 * {
     margin: 0;
@@ -20,16 +23,27 @@ img {
 .container {
     width: 100%;
     height: 100vh;
-    background-color: rgb(236, 78, 149);
+    background-image: url("images/fireworks2.jpg");
     background-size: cover;
     background-position: center;
-    display:flex;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .profile-box {
-    background: #f894ce;
+    background: rgb(235, 136, 181, .5);  /*#f894ce;*/
     text-align: center;
+    padding: 40px 90px;
+    color: rgb(252, 252, 252);
+    position: relative;
+    border-radius: 20px; 
+}
+
+.profile-pic1 {
 
 }
+/* 6:10 */
+/* cute pink color: rgb(236, 78, 149) */
